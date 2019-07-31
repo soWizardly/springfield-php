@@ -2,7 +2,7 @@
 
 /** 
  * The below is an array! 
- * We're setting the 'numbers' variable to equal
+ * We're setting the 'numbers' variable equal
  * to an array of integer values!
  * 
  */
