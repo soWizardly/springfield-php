@@ -1,12 +1,6 @@
 <?php 
 
 /**
-*  use echo to show the result of:
-*  a plus b
-*  on the screen
+*  Make an array with 500 elements, and then write
+*  a loop that echos to the screen that number + 2
 */
-
-$a = 1;
-$b = 2;
-
-echo $a + $b;
