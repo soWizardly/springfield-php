@@ -21,7 +21,6 @@
 
 $product = new Pizza();
 $product->name = "Pepperoni";
-$product->price = 10.00;
 $product->cook_time_minutes = 30;
 
-echo $product->name;
+echo $product->cookTimeHours();

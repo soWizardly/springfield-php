@@ -11,7 +11,7 @@
 class Pizza {
 
     // This is a property. 
-    public $name,$price,$cook_time_minutes;
+    public $name,$cook_time_minutes;
 
     // This is a method.
     public function cookTimeHours() 
