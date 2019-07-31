@@ -15,6 +15,7 @@ $number = 1;
  * the ($number == 1) is called the condition of the if statement.
  * If whatever is inside those parenthesis evaluates to TRUE,
  * the first block of code gets run. Else, the second.
+ * 
  * Try changing the number variable above to see what happens!
  * 
  */
