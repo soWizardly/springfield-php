@@ -1,26 +1,30 @@
 <?php 
 
 /** 
- * The below is a variable! 
- * We're setting the 'number' variable to equal 1.
+ * The below is an array! 
+ * We're setting the 'numbers' variable to equal
+ * to an array of integer values!
  * 
  */
-$number = 1;
+$numbers = [1,2,3,4,5];
 
 /**
- * We use a double equals to COMPARE, and a single equals to ASSIGN.
- * Above, we ASSIGNED number to 1.
- * Below we're COMPARING $number to 1. 
  * 
- * the ($number == 1) is called the condition of the if statement.
- * If whatever is inside those parenthesis evaluates to TRUE,
- * the first block of code gets run. Else, the second.
+ * We are looping through each element of the array
+ * with the 'foreach' loop! We need to be able
+ * to write code that references the number we're on
+ * in the loop, so we write ($numbers as $number) 
+ * to say that when we use $number, we mean the one we're
+ * on now.
  * 
- * Try changing the number variable above to see what happens!
+ * Try adding more numbers to the array above!
  * 
  */
-if ($number == 1) {
-    echo "The number is $number";
-} else {
-    echo "You changed the number! It's $number now!";
+
+foreach ($numbers as $number) {
+    if ($number % 2 == 0) {
+        echo "$number is even!  ";
+    } else {
+        echo "$number is odd!  ";
+    }
 }
