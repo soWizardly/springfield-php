@@ -19,8 +19,9 @@
 
  include "classes/Pizza.php";
 
-$product = new Pizza();
-$product->name = "Pepperoni";
-$product->cook_time_minutes = 30;
+$pizza = new Pizza();
+$pizza->name = "Pepperoni";
+$pizza->cook_time_minutes = 30;
 
-echo $product->cookTimeHours();
+echo "Pepperoni pizza takes this many hours to cook: " . $pizza->cookTimeHours() . " ";
+echo "My favorite kind of pizza is: " . Pizza::randomPizzaName();

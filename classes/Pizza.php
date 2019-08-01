@@ -11,12 +11,18 @@
 class Pizza {
 
     // This is a property. 
-    public $name,$cook_time_minutes;
+    public $name, $cook_time_minutes;
+    protected $names = ["Pepperoni", "Pineapple", "Sausage"];
 
     // This is a method.
     public function cookTimeHours() 
     {
         return round($this->cook_time_minutes / 60, 2);
+    }
+
+    public static function randomPizzaName() 
+    {
+        return $this->pizza[rand(0,2)];
     }
 
 }
